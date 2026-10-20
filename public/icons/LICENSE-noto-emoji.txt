@@ -6,7 +6,7 @@ Source file: 2D/svg/emoji_u1f914.svg, licensed under the Apache License 2.0
 
 Copyright 2013 Google, Inc. All Rights Reserved.
 
-Changes made for cited.info: the SVG was rendered to PNG at 48, 96 and 180 px;
+Changes made for citely: the SVG was rendered to PNG at 48, 96 and 180 px;
 the 180 px version (apple-touch-icon.png) has a white background and padding.
 No other changes.
 
