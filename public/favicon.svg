@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🤔</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Fountain pen nib, drawn for Citely. Dark tile keeps it visible on light and dark tabs. -->
+  <defs>
+    <mask id="cut">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M32 9 V31" stroke="#000" stroke-width="3.2" stroke-linecap="round"/>
+      <circle cx="32" cy="33" r="4.2" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0b0a09"/>
+  <g transform="rotate(45 32 32)">
+    <path mask="url(#cut)" fill="#d4b67a"
+          d="M32 4 C34 13 45 22 45 33 L45 46 L19 46 L19 33 C19 22 30 13 32 4 Z"/>
+    <rect x="17" y="47" width="30" height="9" rx="2" fill="#f6f3ee"/>
+  </g>
+</svg>
